@@ -1,0 +1,22 @@
+body {
+	background-color: #6886A0;
+}
+
+h1 {
+	font-size: 250%;
+	text-align: center;
+	color: white;
+}
+
+.red-span {
+	color: red;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.content {
+	margin: 10px;
+}
