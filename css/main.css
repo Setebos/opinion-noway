@@ -12,6 +12,14 @@ h1 {
 	color: red;
 }
 
+.mot-pdg {
+	color: white;
+	text-align: center;
+	background-color: #7496b2;
+	width: 80%;
+	margin: auto;
+}
+
 .container {
 	display: flex;
 	justify-content: space-around;

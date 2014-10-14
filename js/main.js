@@ -54,7 +54,7 @@ function drawChart() {
   ]);
 
   // Set chart options
-  var options3 = {'title':'A quelle vitesse vole une hirondelle avec une noix de coco ?',
+  var options3 = {'title':'A quelle vitesse vole une hirondelle portant une noix de coco ?',
     'width':500,
     'height':400};
 
@@ -95,4 +95,22 @@ function drawChart() {
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart-div5'));
   chart.draw(data5, options5);
+
+  var data6 = new google.visualization.DataTable();
+  data6.addColumn('string', 'Opinion');
+  data6.addColumn('number', 'Slices');
+  data6.addRows([
+    ['Alors c\'est simple, tout droit, à droite, à gauche, à gauche, encore tout droit, à droite, et c\'est bon', 96],
+    ['Désolé je connais pas bien le quartier', 243],
+    ['NSPP', 312],
+  ]);
+
+  // Set chart options
+  var options6 = {'title':'Pardon, je cherche la rue Robert, vous pouvez m\'indiquer le chemin ?',
+    'width':500,
+    'height':400};
+
+  // Instantiate and draw our chart, passing in some options.
+  var chart = new google.visualization.PieChart(document.getElementById('chart-div6'));
+  chart.draw(data6, options6);
 }
