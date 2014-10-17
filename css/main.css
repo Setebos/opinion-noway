@@ -28,3 +28,7 @@ h1 {
 .content {
 	margin: 10px;
 }
+
+.row {
+	text-align: center;
+}

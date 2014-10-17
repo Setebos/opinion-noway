@@ -20,8 +20,8 @@ function drawChart() {
 
   // Set chart options
   var options1 = {'title':'Avez-vous ressenti une recrudescence des violations de domicile ?',
-    'width':500,
-    'height':400};
+    'width':'100%',
+    'height':'400'};
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart-div'));
@@ -38,8 +38,8 @@ function drawChart() {
 
   // Set chart options
   var options2 = {'title':'Qu\'en pensez-vous ?',
-    'width':500,
-    'height':400};
+    'width':'100%',
+    'height':'400'};
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart-div2'));
@@ -55,8 +55,8 @@ function drawChart() {
 
   // Set chart options
   var options3 = {'title':'A quelle vitesse vole une hirondelle portant une noix de coco ?',
-    'width':500,
-    'height':400};
+    'width':'100%',
+    'height':'400'};
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart-div3'));
@@ -73,8 +73,8 @@ function drawChart() {
 
   // Set chart options
   var options4 = {'title':'Les chemtrails : mythe ou réalité ?',
-    'width':500,
-    'height':400};
+    'width':'100%',
+    'height':'400'};
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart-div4'));
@@ -89,8 +89,8 @@ function drawChart() {
 
   // Set chart options
   var options5 = {'title':'Quelle est votre religion ?',
-    'width':500,
-    'height':400};
+    'width':'100%',
+    'height':'400'};
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart-div5'));
@@ -107,8 +107,8 @@ function drawChart() {
 
   // Set chart options
   var options6 = {'title':'Pardon, je cherche la rue Robert, vous pouvez m\'indiquer le chemin ?',
-    'width':500,
-    'height':400};
+    'width':'100%',
+    'height':'400'};
 
   // Instantiate and draw our chart, passing in some options.
   var chart = new google.visualization.PieChart(document.getElementById('chart-div6'));
